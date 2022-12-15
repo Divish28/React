@@ -2,23 +2,29 @@ import logo from './logo.svg';
 import './App.css';
 
 const NAme="Divish Kumar"
-function App(){   //Embedding varible into jsx
+function add(values){
+  return(values.a+values.b)
+}
+const values={a:20,b:30}
+function App(){   //Embedding varible  and Expression into jsx
   return(
     <html>
       <head>
         <link style={{}}></link>
       </head>
       <body>
-        <h1>Hi, {NAme} Welcome</h1>              
+        <h1>Hi, {NAme} Welcome</h1>    
+        <h2>Addition of two numbers is {add(values)} , This is embedding of expression into jsx</h2>          
         <div>
           <header>
             <div>
               <nav>
                 <ul>
-                  <li><a href='#'>Home</a></li>
-                  <li><a href='#'>Kids</a></li>
-                  <li><a href='#'>Womens</a></li>
-                  <li><a href="#">Mens</a></li>
+                  <li><a href='#Home'>Home</a></li>
+                  <li><a href='#Kids'>Kids</a></li>
+                  <li><a href='#Womens'>Womens</a></li>
+                  <li><a href='#Mens'>Mens</a></li>
+                  <li><a href='#Login'>Login</a></li>
                 </ul>
               </nav>
             </div>
