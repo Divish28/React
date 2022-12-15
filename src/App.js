@@ -1,13 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
 
-function App(){
+const NAme="Divish Kumar"
+function App(){   //Embedding varible into jsx
   return(
     <html>
       <head>
         <link style={{}}></link>
       </head>
       <body>
+        <h1>Hi, {NAme} Welcome</h1>              
         <div>
           <header>
             <div>
